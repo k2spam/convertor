@@ -26,7 +26,7 @@ class Convertor {
         const parts = bin.toString().split('.')
         return `${parseInt(parts[0], 2)}.${parseInt(parts[1], 2)}`
       }
-      return parseFloat(bin, 2)
+      return parseInt(bin, 2)
     }
   }
 
