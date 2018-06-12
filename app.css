@@ -1,0 +1,39 @@
+html, body {
+  font: 13px Menlo, Monaco, 'Courier New', monospace;
+  color: #555;
+}
+
+.convertor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.convertor textarea {
+  width: 40vw;
+  min-width: 200px;
+  height: 25vh;
+  min-height: 100px;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  font: 13px Menlo, Monaco, 'Courier New', monospace;
+  color: #555;
+}
+
+.convertor div label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.convertor p {
+  width: 40vw;
+  min-width: 200px;
+  height: 25vh;
+  min-height: 100px;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid;
+  word-break: break-all;
+}

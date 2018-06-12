@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="convertor, binary, string, base64">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Convertor</title>
+  <link rel="stylesheet" href="app.css">
+  <script src="convertor.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class='convertor'>
+    <textarea id="field1"></textarea>
+    <div>
+      <label><input type="radio" checked name='convert' value='StringToBase64'> String => Base64</label>
+      <label><input type="radio" name='convert' value='Base64ToString'> Base64 => String</label>
+      <label><input type="radio" name='convert' value='StringToBin'> String/Number => BIN</label>
+      <label><input type="radio" name='convert' value='BinToString'> BIN => String/Number</label>
+    </div>
+    <p id="field2"></p>
+  </div>
+</body>
+</html>
